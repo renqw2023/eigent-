@@ -1,0 +1,370 @@
+{
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "confirm": "确认",
+    "close": "关闭",
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "newProject": "新项目",
+    "copy": "复制",
+    "failed": "失败"
+  },
+  "pages": {
+    "home": {
+      "title": "主页",
+      "welcome": "欢迎使用 Eigent"
+    },
+    "login": {
+      "title": "登录",
+      "username": "用户名",
+      "password": "密码",
+      "submit": "登录"
+    },
+    "signup": {
+      "title": "注册",
+      "username": "用户名",
+      "email": "邮箱",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "submit": "注册"
+    },
+    "setting": {
+      "title": "设置",
+      "general": "通用",
+      "models": "模型",
+      "api": "API",
+      "privacy": "隐私",
+      "mcp": "MCP",
+      "mcpAndTools": "MCP 和工具"
+    }
+  },
+  "components": {
+    "topBar": {
+      "searchPlaceholder": "搜索...",
+      "reportBug": "报告错误",
+      "referFriends": "推荐朋友"
+    },
+    "chatBox": {
+      "inputPlaceholder": "今天你需要完成什么？",
+      "welcome": "欢迎使用 Eigent",
+      "howCanIHelp": "今天我能帮你什么？",
+      "setupToStart": "完成系统设置以开始使用 Eigent",
+      "selfHostedMode": "您正在使用自托管模式。在\"MCP 和工具\"中输入 EXA 和 Google 搜索密钥以确保 Eigent 正常工作。",
+      "tripPlanner": "棕榈泉网球之旅规划师",
+      "csvAnalysis": "银行转账 CSV 分析和可视化",
+      "findDuplicateFiles": "在下载文件夹中查找重复文件",
+      "noReply": "未收到回复，任务继续"
+    },
+    "bottomInput": {
+      "backToEdit": "返回编辑",
+      "startTask": "开始任务",
+      "processing": "处理中...",
+      "pause": "暂停",
+      "start": "开始",
+      "replay": "重播",
+      "selectFile": "选择文件",
+      "removeFile": "移除文件"
+    },
+    "setting": {
+      "settings": "设置",
+      "general": "通用",
+      "privacy": "隐私",
+      "models": "模型",
+      "mcpAndTools": "MCP 和工具",
+      "account": "账户",
+      "youAreCurrentlySignedInWith": "您当前登录的账户是",
+      "manage": "管理",
+      "logout": "登出",
+      "appearance": "外观",
+      "light": "浅色",
+      "transparent": "透明",
+      "allowAgentToTakeScreenshots": "允许代理程序截屏",
+      "allowAgentToTakeScreenshotsDesc": "允许代理程序截取您计算机屏幕的屏幕截图。这可以用于支持、诊断或监控目的。屏幕截图可能包含可见的个人信息，请谨慎启用。",
+      "allowAgentToAccessLocalSoftware": "允许代理程序访问本地软件",
+      "allowAgentToAccessLocalSoftwareDesc": "授予代理程序与您本地计算机上安装的软件进行交互和使用的权限。这对于故障排除、运行诊断或执行特定任务可能是必要的。",
+      "allowAgentToAccessYourAddress": "允许代理程序访问您的地址",
+      "allowAgentToAccessYourAddressDesc": "授权代理程序查看和使用您的位置或地址详情。这对于基于位置的服务或个性化支持可能是必要的。",
+      "passwordStorage": "密码存储",
+      "passwordStorageDesc": "确定密码的处理和存储方式。您可以选择将密码安全地存储在设备或应用程序中，或者选择每次手动输入。所有存储的密码都是加密的。",
+      "eigentCloudVersion": "Eigent 云版本",
+      "youAreCurrentlySubscribedToThe": "您当前订阅的是",
+      "discoverMoreAboutOur": "了解更多关于我们的",
+      "pricingOptions": "定价选项",
+      "credits": "积分",
+      "selectModelType": "选择模型类型",
+      "gpt41MiniDesc": "GPT-4.1 Mini: 成本较低，响应速度更快，但输出质量有所降低。",
+      "gpt41Desc": "GPT-4.1: 成本较高，响应速度较慢，但质量 superior 和推理能力更强。",
+      "claudeOpus41Desc": "Claude Opus 4.1: 成本较高，响应速度较慢，但质量 superior 和推理能力更强。",
+      "claudeSonnet4Desc": "Claude Sonnet 4: 成本较高，响应速度较慢，但质量 superior 和推理能力更强。",
+      "claude35HaikuDesc": "Claude 3.5 Haiku: 成本较高，响应速度较慢，但质量 superior 和推理能力更强。",
+      "gpt5Desc": "GPT-5: 成本较高，响应速度较慢，但质量 superior 和推理能力更强。",
+      "gpt5MiniDesc": "GPT-5 mini: 成本较高，响应速度较慢，但质量 superior 和推理能力更强。",
+      "gpt5NanoDesc": "GPT-5 nano: 成本较高，响应速度较慢，但质量 superior 和推理能力更强。",
+      "gemini25ProDesc": "Gemini 2.5 Pro: 成本较高，响应速度较慢，但质量 superior 和推理能力更强。",
+      "customModel": "自定义模型",
+      "useYourOwnApiKeys": "使用您自己的 API 密钥或设置本地模型。",
+      "enterYourApiKey": "输入您的 API 密钥",
+      "enterYourUrl": "输入您的 URL",
+      "enterYourModelType": "输入您的模型类型",
+      "verify": "验证",
+      "localModel": "本地模型",
+      "modelPlatform": "模型平台",
+      "modelEndpointUrl": "模型端点 URL",
+      "modelType": "模型类型",
+      "verifying": "验证中...",
+      "youAreOnSelfHostMode": "您处于自托管模式",
+      "selfHostModeDesc1": "您正在使用自托管模式。为了获得此产品的最佳性能，请在 \\\"MCP 和工具\\\" 中输入 Google 搜索密钥以确保 Eigent 正常工作。",
+      "selfHostModeDesc2": "Google 搜索密钥对于提供准确的搜索结果至关重要。Exa 搜索密钥是可选的，但强烈推荐以获得更好的性能。",
+      "pleaseSelect": "请选择",
+      "enterYourLocalModelType": "输入您的本地模型类型",
+      "selectPlatform": "选择平台",
+      "copiedToClipboard": "已复制到剪贴板",
+      "verificationFailedPleaseCheckEndpointUrl": "验证失败，请检查端点 URL",
+      "verifyModelSupportsFunctionCalling": "验证模型是否支持函数调用来使用 Eigent。",
+      "mcpAndTools": "MCP 和工具",
+      "tools": "工具",
+      "searchGoogleAndExa": "搜索 (Google 和 Exa)",
+      "environmentalVariablesRequired": "需要的环境变量:",
+      "getGoogleSearchApi": "获取 Google 搜索 API:",
+      "googleCustomSearchApi": "Google 自定义搜索 API",
+      "getExaApiOptional": "获取 Exa API (可选):",
+      "exaAi": "Exa.ai",
+      "addedExternalServers": "已添加的外部服务器",
+      "noMCPServers": "没有 MCP 服务器",
+      "addMCPServer": "添加 MCP 服务器",
+      "market": "市场",
+      "invalidJson": "无效的 JSON",
+      "saveFailed": "保存失败",
+      "loadFailed": "加载失败",
+      "installMCPFailed": "安装 MCP 失败，请重试"
+    },
+    "workSpaceMenu": {
+      "developerAgent": "开发者代理",
+      "searchAgent": "搜索代理",
+      "multiModalAgent": "多模态代理",
+      "documentAgent": "文档代理",
+      "socialMediaAgent": "社交媒体代理"
+    },
+    "addWorker": {
+      "newWorker": "新建工作者",
+      "configureMcpServer": "配置 MCP 服务器",
+      "addYourMcpServer": "添加您的 MCP 服务器",
+      "descriptionOptional": "描述 (可选)",
+      "agentTool": "代理工具",
+      "cancel": "取消",
+      "saveChanges": "保存更改",
+      "workerNameCannotBeEmpty": "工作者名称不能为空",
+      "workerNameAlreadyExists": "工作者名称已存在",
+      "configure": "配置"
+    },
+    "toolSelect": {
+      "environmentalVariablesRequired": "需要的环境变量:",
+      "installed": "已安装",
+      "installing": "安装中...",
+      "install": "安装",
+      "configure": "配置"
+    },
+    "taskState": {
+      "done": "已完成",
+      "inProgress": "进行中",
+      "unfinished": "未完成"
+    },
+    "globalSearch": {
+      "searchForTaskOrDocument": "搜索任务或文档",
+      "typeACommandOrSearch": "输入命令或搜索...",
+      "noResultsFound": "未找到结果",
+      "today": "今天",
+      "calendar": "日历",
+      "searchEmoji": "搜索表情符号",
+      "calculator": "计算器"
+    },
+    "searchInput": {
+      "searchMCPs": "搜索 MCP"
+    },
+    "historySidebar": {
+      "deleteTask": "删除任务",
+      "areYouSureYouWantToDeleteThisTask": "您确定要删除此任务吗？此操作无法撤销。",
+      "dashboard": "仪表板",
+      "newProject": "新建项目",
+      "share": "分享",
+      "delete": "删除",
+      "token": "令牌",
+      "projectArchives": "项目归档"
+    },
+    "alertDialog": {
+      "confirmTitle": "确认标题",
+      "confirmContent": "确认内容？"
+    },
+    "integrationList": {
+      "comingSoon": "即将推出",
+      "install": "安装",
+      "uninstall": "卸载"
+    },
+    "mcpMarket": {
+      "mcpMarket": "MCP 市场",
+      "all": "全部",
+      "noMCPServices": "没有 MCP 服务",
+      "loading": "加载中...",
+      "loadingMore": "加载更多...",
+      "noMoreMCPServers": "没有更多 MCP 服务器"
+    },
+    "mcpListItem": {
+      "setting": "设置",
+      "delete": "删除"
+    },
+    "mcpAddDialog": {
+      "addYourMCPServer": "添加您的 MCP 服务器",
+      "addLocalMCPServer": "通过提供有效的 JSON 配置来添加本地 MCP 服务器。",
+      "learnMore": "了解更多",
+      "installing": "安装中...",
+      "install": "安装",
+      "jsonFormatError": "JSON 格式错误: "
+    },
+    "mcpConfigDialog": {
+      "editMCPConfig": "编辑 MCP 配置",
+      "name": "名称",
+      "description": "描述",
+      "command": "命令",
+      "args": "参数 (每行一个)",
+      "env": "环境变量 (键值对)",
+      "key": "键",
+      "value": "值",
+      "cancel": "取消",
+      "save": "保存"
+    },
+    "mcpEnvDialog": {
+      "configureToolkit": "配置 {name} 工具包",
+      "cancel": "取消",
+      "connect": "连接",
+      "optional": "可选的"
+    },
+    "mcpDeleteDialog": {
+      "confirmDelete": "确认删除",
+      "areYouSureYouWantToDelete": "您确定要删除 <b>{name}</b> 吗？",
+      "cancel": "取消",
+      "deleting": "删除中...",
+      "delete": "删除"
+    },
+    "settingAPI": {
+      "envShouldNotBeEmpty": "环境变量不能为空",
+      "verify": "验证"
+    },
+    "creditsToast": {
+      "reachedLimit": "您已达到当前套餐的限制。",
+      "upgrade": "升级",
+      "yourAccount": "您的账户或切换到自托管模型和 API 在",
+      "settings": "设置"
+    },
+    "storageToast": {
+      "storageLimitReached": "您的云存储已达到当前套餐的限制。请",
+      "upgradeAccount": "升级",
+      "yourAccountOrStoreLocally": "您的账户或将历史内容存储在本地。您已达到当前套餐的限制。"
+    },
+    "trafficToast": {
+      "highTraffic": "我们正在经历高流量。请稍后再试。"
+    },
+    "update": {
+      "updateCheckFailed": "更新检查失败",
+      "newVersionAvailable": "有新版本可用",
+      "download": "下载",
+      "updateError": "更新错误",
+      "downloadingUpdate": "正在下载更新...",
+      "complete": "完成",
+      "downloadComplete": "下载完成",
+      "clickToInstallUpdate": "点击安装更新",
+      "install": "安装"
+    },
+    "installDependencies": {
+      "installationFailed": "安装失败",
+      "retry": "重试",
+      "systemInstalling": "系统安装中...",
+      "reportABug": "报告错误"
+    },
+    "privacyDialog": {
+      "turnOnAllPrivacySettings": "开启所有隐私设置以开始使用 Eigent",
+      "allowAgentToTakeScreenshots": "允许代理程序截屏",
+      "allowAgentToTakeScreenshotsDesc": "允许代理程序截取您计算机屏幕的屏幕截图。这可以用于支持、诊断或监控目的。屏幕截图可能包含可见的个人信息，请谨慎启用。",
+      "allowAgentToAccessLocalSoftware": "允许代理程序访问本地软件",
+      "allowAgentToAccessLocalSoftwareDesc": "授予代理程序与您本地计算机上安装的软件进行交互和使用的权限。这对于故障排除、运行诊断或执行特定任务可能是必要的。",
+      "allowAgentToAccessYourAddress": "允许代理程序访问您的地址",
+      "allowAgentToAccessYourAddressDesc": "授权代理程序查看和使用您的位置或地址详情。这对于基于位置的服务或个性化支持可能是必要的。",
+      "passwordStorage": "密码存储",
+      "passwordStorageDesc": "确定密码的处理和存储方式。您可以选择将密码安全地存储在设备或应用程序中，或者选择每次手动输入。所有存储的密码都是加密的。",
+      "eigentIsDesktopSoftware": "Eigent 是一款桌面软件，它将从您的计算机操作浏览器、终端工具来启动任务。在开始使用 Eigent 之前，确保启用所有必要的隐私设置以实现完整功能非常重要。",
+      "cancel": "取消",
+      "turnOnAllAndFinish": "全部开启并完成"
+    },
+    "searchHistoryDialog": {
+      "search": "搜索",
+      "searchDialog": "搜索对话框",
+      "searchOrAskAQuestion": "搜索或提问",
+      "noResultsFound": "未找到结果",
+      "today": "今天"
+    },
+    "folder": {
+      "loading": "加载中...",
+      "selectFileToViewContents": "选择一个文件以查看其内容"
+    },
+    "permissions": {
+      "enablePermissions": "启用权限",
+      "grantPermissionToActivateAgent": "授予权限以激活代理的自主操作。",
+      "enableScreenRecording": "启用屏幕录制",
+      "enableAccessLocalSoftware": "启用访问本地软件",
+      "grantLocationAccess": "授予位置访问权限",
+      "shareDataToEnhanceEigent": "共享数据以增强 Eigent",
+      "skip": "跳过",
+      "next": "下一步"
+    },
+    "carousel": {
+      "dynamicWorkforce": "“动态工作队伍分解任务，完成工作”",
+      "addWorkerWithPluggableMcp": "“通过可插拔的 MCP 添加工作者”",
+      "privateAndSecureWithLocalModel": "“通过本地模型设置实现私密和安全”",
+      "skip": "跳过",
+      "next": "下一步"
+    },
+    "terminal": {
+      "endPreviousOutput": "结束上一个输出",
+      "welcomeToEigentTerminal": "欢迎使用 Eigent 终端！",
+      "typeHelpForCommands": "输入 'help' 查看可用命令。"
+    },
+    "workflow": {
+      "share": "分享"
+    },
+    "workflowNode": {
+      "completionReport": "完成报告",
+      "noToolkits": "没有工具包"
+    },
+    "searchAgentWorkspace": {
+      "developerAgent": "开发者代理",
+      "searchAgent": "搜索代理",
+      "documentAgent": "文档代理",
+      "multiModalAgent": "多模态代理",
+      "socialMediaAgent": "社交媒体代理"
+    },
+    "login": {
+      "login": "登录",
+      "signUp": "注册",
+      "continueWithGoogle": "使用 Google 继续",
+      "continueWithGithub": "使用 Github 继续",
+      "or": "或",
+      "email": "邮箱",
+      "enterYourEmail": "输入您的邮箱",
+      "password": "密码",
+      "enterYourPassword": "输入您的密码",
+      "logIn": "登录",
+      "loggingIn": "登录中...",
+      "pleaseEnterEmailAddress": "请输入邮箱地址",
+      "pleaseEnterValidEmailAddress": "请输入有效的邮箱地址",
+      "pleaseEnterPassword": "请输入密码",
+      "passwordMustBeAtLeast6Characters": "密码必须至少包含 6 个字符",
+      "loginFailedPleaseTryAgain": "登录失败，请重试",
+      "loginFailedPleaseCheckEmailAndPassword": "登录失败，请检查您的邮箱和密码",
+      "privacyPolicy": "隐私政策"
+    }
+  }
+}
